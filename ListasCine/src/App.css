@@ -1,0 +1,34 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.5rem;
+  border: solid 1px #c5c5c5;
+}
+
+th {
+  background-color: #cecece;
+}
+
+tr:nth-child(even) {
+  background-color: #ededed;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #000000;
+  font-weight: 900;
+}
+
+tr:hover {
+  background-color: #a2cccd;
+}
