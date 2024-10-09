@@ -1,11 +1,8 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import "./index.css";
+import Card from "./components/Card";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <h2>Lista de cines</h2>
@@ -20,19 +17,30 @@ function App() {
         </thead>
         <tbody>
           <tr>
-            <td>Cinepolis</td>
-            <td>Av. Insurgentes Sur 123</td>
+            <td>1</td>
+            <td>Ejemplo 1</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Ejemplo 2</td>
             <td>5</td>
           </tr>
           <tr>
-            <td>Cinemex</td>
-            <td>Av. Revolución 456</td>
             <td>3</td>
+            <td>Ejemplo 3</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Ejemplo 4</td>
+            <td>8</td>
           </tr>
         </tbody>
       </table>
+      <Card />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
